@@ -9,6 +9,8 @@ turtle.shape(image)
 answer_state = screen.textinput(title= "Guess the State", prompt="Name another")
 print(answer_state)
 
+guess = input("What's another state name?")
+
 
 
 
