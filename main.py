@@ -1,4 +1,7 @@
 import turtle
+import pandas
+
+
 
 screen = turtle.Screen()
 screen.title("U.S. States Game")
@@ -11,7 +14,7 @@ print(answer_state)
 
 guess = input("What's another state name?")
 
-
+states = pandas.read_csv("50_states.csv")
 
 
 
